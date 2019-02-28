@@ -1,0 +1,37 @@
+<html>
+<head>
+	<style type="text/css">
+		#LetsPage
+    	{
+    		width: 100vw;
+    		height: 100vh;
+    		background: red;
+    		display: grid;
+    		grid-template-columns: auto;
+    	}
+    	#LetsTitle
+    	{
+    		text-align: center;
+    		font-size: 100px;
+    		margin: auto;
+    	}
+    	#new
+    	{
+    		height: 50vh;
+    		width: 100vw;
+    	}
+	</style>
+</head>
+<body>
+	
+	<div id="LetsPage">
+		<div id="LetsTitle">Lets Play the Game</div>
+        <div id="animationtile"></div>
+	</div>
+	<div id="new"></div>
+	<script type="text/javascript">
+		var copy = document.getElementById('LetsPage').getContext;
+		document.getElementById('new').innerHTML = copy;
+	</script>
+</body>
+</html>
